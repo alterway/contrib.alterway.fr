@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "lato-light";
+    src: url('../fonts/lato-light.ttf');
+}
+@font-face {
+    font-family: "lato-blackitalic";
+    src: url('../fonts/lato-blackitalic.ttf');
+}
+
+/* ---- layout ---- */
+body {
+    margin: 0;
+    font-size: 100%;
+    color: #3c4045;
+    background-color: #ffffff;
+    font-family: 'lato-light', Arial, 'Liberation Sans', sans-serif;
+    line-height: 1.4;
+}
+.page {
+    width:960px;
+    text-align:left;
+    margin: 0 auto;
+}
+.odd {
+    background-color:#F7F7F7;
+}
+
+.odd, .even {
+    padding: 1em 0;
+}
+
+
+
+
+
+/* ---- typo ---- */
+h1 {
+    font-family: 'lato-blackitalic';
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+a, a:visited, a:hover {
+    color: #ff0099;
+}
+
+
+
+/** ---- general ---- */
+.sponsor, .sponsor:hover {
+    background-color:#ff0099 !important;
+}
+
+
+/* ---- menu ---- */
+.main-menu {
+    background:#3C4045;
+    font-size:62%;
+}
+.main-menu ul {
+    margin: 0;
+    list-style: none;
+}
+.main-menu li {
+    border-left:1px solid #6d7074;
+    display:inline-block;
+}
+.main-menu a {
+    font-size:1.4em;
+    color:#FFF;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0 14px 0 14px;
+    line-height: 2em;
+}
+.main-menu a:hover {
+    background:#6d7074;
+}
+.main-menu .page {
+    text-align:right;
+}
+
+/* ---- tables ---- */
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    background: #ff0099;
+    color :#FFF;
+}
+.table-striped>tbody>tr:nth-child(odd) {
+    background-color: #f9f9f9;
+    background-color: #ecf0f1;
+}
+.table-striped>tbody>tr:nth-child(even) {
+    background-color: #FFF;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
