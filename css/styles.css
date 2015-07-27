@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "lato-light";
-    src: url('../fonts/lato-light.ttf');
+    font-family: "titilium";
+    src: url('../fonts/TitilliumWeb-Regular.ttf');
 }
 @font-face {
-    font-family: "lato-blackitalic";
-    src: url('../fonts/lato-blackitalic.ttf');
+    font-family: "titilium-blackitalic";
+    src: url('../fonts/TitilliumWeb-BoldItalic.ttf');
 }
 
 /* ---- layout ---- */
@@ -13,7 +13,7 @@ body {
     font-size: 100%;
     color: #3c4045;
     background-color: #ffffff;
-    font-family: 'lato-light', Arial, 'Liberation Sans', sans-serif;
+    font-family: 'titilium', Arial, 'Liberation Sans', sans-serif;
     line-height: 1.4;
 }
 .page {
@@ -35,20 +35,20 @@ body {
 
 /* ---- typo ---- */
 h1 {
-    font-family: 'lato-blackitalic';
+    font-family: 'titilium-blackitalic';
     font-size: 2.5em;
     margin-bottom: 5px;
     margin-top: 25px;
 }
 a, a:visited, a:hover {
-    color: #ff0099;
+    color: #240058;
 }
 
 
 
 /** ---- general ---- */
 .sponsor, .sponsor:hover {
-    background-color:#ff0099 !important;
+    background-color:#240058 !important;
 }
 
 
@@ -97,7 +97,7 @@ thead {
 .table>thead>tr>th {
     vertical-align: bottom;
     border-bottom: 2px solid #ddd;
-    background: #ff0099;
+    background: #240058;
     color :#FFF;
 }
 .table-striped>tbody>tr:nth-child(odd) {
