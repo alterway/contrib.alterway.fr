@@ -35,6 +35,8 @@
             Voici la liste de nos principales contributions techniques.
         </p>
         <ul>
+            <li><a href="#devops">Contributions DevOps</a></li>
+            <li><a href="#machine-learning">Contributions Machine Learning IA</a></li>
             <li><a href="#php">Contributions PHP</a></li>
             <li><a href="#drupal">Contributions Drupal</a></li>
             <li><a href="#hosting">Contributions Hosting</a></li>
@@ -43,7 +45,114 @@
             <li><a href="#js">Contributions JavaScript</a></li>
             <li><a href="#accessibilite">Contributions Accessibilité</a></li>
             <li><a href="#aosp">Contributions AOSP</a></li>
+            <li><a href="#rnd">Projets R&D</a></li>
         </ul>
+    </section>
+    <section class="odd">
+        <div class="page" id="devops">
+            <h2>Contributions DevOps</h2>
+            <h3>Ressources publiques</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Projet</th>
+                        <th>Description</th>
+                        <th>License</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://hub.docker.com/">Repository Docker</a><br>
+                        </td>
+                        <td><a href="https://hub.docker.com/u/alterway"></a>Images Docker Alter Way</td>
+                        <td>Diverses</td>
+                        <td>Contributeur et Créateur</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Contributions aux plateformes</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Projet</th>
+                        <th>Description</th>
+                        <th>License</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/omauger/docker-compose-php/">Docker-Compose-PHP</a></td>
+                        <td>A docker-compose SDK in PHP</td>
+                        <td>MIT</td>
+                        <td>Créateur</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/containerd/containerd/">ContainerD</a><br></td>
+                        <td> <a href="https://github.com/containerd/containerd/pull/1586">Patch de collecte post-mortem</a> </td> 
+                        <td>Apache 2.0</td>
+                        <td>Contributeur</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://github.com/linuxkit/linuxkit">LinuxKit</a><br>
+                        </td>
+                        <td>
+                            <p>Patchs d'exécution Linuxkit sous OpenStack</p>
+                            <ul>
+                                <li><a href="https://github.com/linuxkit/linuxkit/pull/2620">cadvisor integration</a></li>
+                                <li><a href="https://github.com/linuxkit/linuxkit/pull/2736">Openstack authentication support</a></li>
+                                <li><a href="https://github.com/linuxkit/linuxkit/pull/2754">node_exporter integration</a></li>
+                            </ul>
+                        </td>
+                        <td>Apache 2.0</td>
+                        <td>Contributeur</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://github.com/docker">Docker</a><br>
+                        </td>
+                        <td>
+                            <p>Orchestration automatique des ressources locales</p>
+                            <ul>
+                                <li><a href="https://github.com/moby/moby/pull/38706">Patch Moby</a></li>
+                                <li><a href="https://github.com/docker/cli/pull/1664">Patch Docker Cli</a></li>
+                                <li><a href="https://github.com/docker/swarmkit/pull/2818">Patch Docker Swarmkit</a></li>
+                            </ul>
+                        </td>
+                        <td>Apache 2.0</td>
+                        <td>Contributeur</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="even">
+        <div class="page" id="machine-learning">
+            <h2>Contributions Machine Learning</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Projet</th>
+                        <th>Description</th>
+                        <th>License</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://www.redmine.org/plugins/redmine-nath">Redmine "Nath"</a><br>
+                        </td>
+                        <td><a href="https://gitlab.com/alter-way-rnd/NATH/NATH-redmine"></a>Plugin de qualification automatique</td>
+                        <td>MIT</td>
+                        <td>Créateur</td>
+                    </tr>                
+                </tbody>
+            </table>
+        </div>
     </section>
     <section class="odd">
         <div class="page" id="php">
@@ -126,6 +235,13 @@
                     </tr>
                 </thead>
                 <tbody>
+                    
+                    <tr>
+                        <td><a href="http://drupalfr.org/">Drupal Composer</a></td>
+                        <td><a href="https://github.com/drupal-composer/drupal-l10n/pull/10#issuecomment-601826079%20">Patch pour le téléchargement des traductions</a></td>
+                        <td>GPL-2.0</td>
+                        <td>Contributeur</td>
+                    </tr>
                     <tr>
                         <td><a href="http://drupalfr.org/">Drupal France</a></td>
                         <td><a href="http://drupalfr.org/propositions-de-logo-2016/">Création du logo pour l'association Drupal France</a></td>
@@ -169,6 +285,22 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td>
+                            <a href="https://github.com/moul/sshportal">SSHPortal</a>
+                        </td>
+                        <td>
+                            <p>Patchs correctifs</p>
+                            <ul>
+                                <li><a href="https://github.com/moul/sshportal/pull/74">Possibilité de supprimer uniquement un hote</a></li>
+                                <li><a href="https://github.com/moul/sshportal/pull/75">Affichage correct du statut de session</a></li>
+                                <li><a href="https://github.com/moul/sshportal/pull/76">Lister les sessions sur de grosses base de données</a></li>
+                                <li><a href="https://github.com/moul/sshportal/pull/123">Fermeture de tunnel SSH si hote injoignable</a></li>
+                            </ul>
+                        </td>
+                        <td>Apache 2.0</td>
+                        <td>Contributeur</td>
+                    </tr>                    
+                    <tr>
                         <td><a href="https://github.com/alterway/tutoriel-azure-ansible/wiki">Tutorial Azure-Ansible</a></td>
                         <td>Utilisation de Ansible dans Azure</td>
                         <td>MIT</td>
@@ -192,6 +324,12 @@
                 </tr>
                 </thead>
                 <tbody>
+                <tr>
+                    <td><a href="https://github.com/alterway/wamp-polls">Wamp Polls</a></td>
+                    <td><a href="https://github.com/alterway/wamp-polls">Real time polls demo with WAMP (Crossbar + Autobahn) and Django </a></td>
+                    <td>MIT</td>
+                    <td>Créateur</td>
+                </tr>
                 <tr>
                     <td><a href="https://pypi.python.org/pypi">Pypi packages</a></td>
                     <td><a href="https://pypi.python.org/pypi?%3Aaction=search&term=ingeniweb&submit=search">Reversement et contribution de 60+ paquets Python Pypi</a></td>
@@ -222,12 +360,6 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td><a href="https://github.com/omauger/docker-compose-php/">Docker-Compose-PHP</a></td>
-                        <td>A docker-compose SDK in PHP</td>
-                        <td>MIT</td>
-                        <td>Créateur</td>
-                    </tr>
                     <tr>
                         <td><a href="https://fr.libreoffice.org/">Libre Office</a></td>
                         <td>Charte graphique Libre Office 4.0 (Écrans 
@@ -328,7 +460,7 @@
                 <tbody>
                 <tr>
                     <td>
-                    <a href="http://aic-project.rnd.alterway.fr/">AiC 2.0</a></td>
+                    <a href="https://source.android.com/">AOSP</a></td>
                     <td>Ajout du profil signal GSM dans l'UI QT
                     (Commit 
                     <a href="https://android.googlesource.com/platform/external/qemu/+/0a3953a49058616170abbf500fcd93b0ecb22b42%5E%21/">#1</a>
@@ -340,6 +472,43 @@
                     <td>Contributeur</td>
                 </tr>
                 <tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- R&D -->
+    <section class="even">
+        <div class="page" id="aosp">
+            <h2>Projets R&D</h2>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Projet</th>
+                    <th>Description</th>
+                    <th>License</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><a href="http://wolphin.gitlab.io/">Wolphin 2.0</a></td>
+                    <td><a href="https://gitlab.com/wolphin/wolphin">Modular monitoring and rating stack for docker swarm</a></td>
+                    <td>Apache 2.0</td>
+                    <td>Créateur</td>
+                </tr>
+                <tr>
+                    <td><a href="http://aic-project.rnd.alterway.fr/">AiC 2.0</a></td>
+                    <td>Plateforme de vérification pour machines virtuelles Android</td>
+                    <td>Apache 2.0</td>
+                    <td>Créateur</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/UCF-project">UCF</a></td>
+                    <td>Librairies pour la diffusion multi-média adaptative et progressive</td>
+                    <td>MIT</td>
+                    <td>Créateur</td>
+                </tr>
                 </tbody>
             </table>
         </div>
